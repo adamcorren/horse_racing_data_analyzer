@@ -1,6 +1,6 @@
 # Horse Racing Data Analyzer 
 
-Horse Racing Data Analyzer is a Python program that scrapes UK, Ireland bookmaker and Betfair exchange horse racing data and combines this data with pre race hourly bookmaker and exchange data. Hourly data, stored in individual daily folders within the 'daily_data' folder will contain hourly prices scraped from the websites [Sporting Life](https://www.sportinglife.com/racing) and [Timeform](https://www.timeform.com/horse-racing). These will contain prices from all the major bookmakers as well as Betfair Exchange prices each hour for the 24 hours preceding the races start time. A program that collects this data can be found from [the GitHub page](https://github.com/adamcorren/horse_racing_data_collecter) It then will analyse the data collected and produce 149 unique data points for every horse running in every race in the UK and Ireland.
+Horse Racing Data Analyzer is a Python program that scrapes UK, Ireland bookmaker and Betfair exchange horse racing data and combines this data with pre race hourly bookmaker and exchange data. It then will analyse the data collected and produce 149 unique data points for every horse running in every race in the UK and Ireland.
 
 These data points cover topics such as:
 - Key time morning prices (currently 1am, 6am ,10am)
@@ -48,6 +48,8 @@ Once you've installed the [prerequisites](#prerequisite-software), double click 
 bash bosh.
 
 ### Using the program
+
+Hourly data, stored in individual daily folders within the 'daily_data' folder will contain hourly prices scraped from the websites [Sporting Life](https://www.sportinglife.com/racing) and [Timeform](https://www.timeform.com/horse-racing). These will contain prices from all the major bookmakers as well as Betfair Exchange prices each hour for the 24 hours preceding the races start time. A program that collects this data can be found from [the GitHub page](https://github.com/adamcorren/horse_racing_data_collecter).
 
 The program will ask which date you want to analyse data from. This is done by asking for the year, month, day. NOTE ONLY THE DATE 2023, 7, 1 WILL WORK WITHOUT ADDITIONAL HOURLY DATA IMPORTED BY USER.
 
