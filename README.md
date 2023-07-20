@@ -49,9 +49,11 @@ bash bosh.
 
 ### Using the program
 
-The program will ask which date you want to analyse data from. This is done by asking for the year, month, day. NOTE ONLY THE DATA 2023, 7, 1 WILL WORK WITHOUT ADDITIONAL HOURLY DATA EXTRACTED.
+The program will ask which date you want to analyse data from. This is done by asking for the year, month, day. NOTE ONLY THE DATE 2023, 7, 1 WILL WORK WITHOUT ADDITIONAL HOURLY DATA IMPORTED BY USER.
 
 The program will then guide you through the rest of the process yourself.
+
+Once exported, the daily data file will be stored in the 'daily_data' folder, as well as a master file named 'ALL' that will contain all data you have analysed.
 
 ## License
 
