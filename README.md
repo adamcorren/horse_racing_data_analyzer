@@ -67,6 +67,8 @@ Once exported, the daily data file will be stored in the 'daily_data' folder, as
 
 [Study on the effect of price movements on market reliability in UK and Ireland horse racing markets](https://github.com/adamcorren/horse_racing_study_4)
 
+[Project Report]()
+
 ## License
 
 Horse Racing Data Analyzer is licensed under [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html).
