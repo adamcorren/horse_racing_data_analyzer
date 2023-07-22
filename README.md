@@ -67,7 +67,7 @@ Once exported, the daily data file will be stored in the 'daily_data' folder, as
 
 [Study on the impact of cross-platform discrepancies on market uncertainty in UK and Ireland horse racing markets](https://github.com/adamcorren/horse_racing_study_3)
 
-[Project Report]()
+[Study on the effect of price movements on market reliability in UK and Ireland horse racing markets](https://github.com/adamcorren/horse_racing_study_4)
 
 ## License
 
