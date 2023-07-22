@@ -57,9 +57,7 @@ The program will then guide you through the rest of the process yourself.
 
 Once exported, the daily data file will be stored in the 'daily_data' folder, as well as a master file named 'ALL' that will contain all data you have analysed.
 
-## Other Horse Racing repositories
-
-[Horse Racing Data Analyzer](https://github.com/adamcorren/horse_racing_data_analyzer)
+# Other Horse Racing repositories
 
 [Study of various price sources in the UK and Ireland horse racing markets](https://github.com/adamcorren/horse_racing_study_1)
 
