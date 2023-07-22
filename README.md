@@ -57,6 +57,18 @@ The program will then guide you through the rest of the process yourself.
 
 Once exported, the daily data file will be stored in the 'daily_data' folder, as well as a master file named 'ALL' that will contain all data you have analysed.
 
+## Other Horse Racing repositories
+
+[Horse Racing Data Analyzer](https://github.com/adamcorren/horse_racing_data_analyzer)
+
+[Study of various price sources in the UK and Ireland horse racing markets](https://github.com/adamcorren/horse_racing_study_1)
+
+[Study of the accuracy of price ranges and how they differ across various price suppliers in the UK and Ireland horse racing markets](https://github.com/adamcorren/horse_racing_study_2)
+
+[Study on the impact of cross-platform discrepancies on market uncertainty in UK and Ireland horse racing markets](https://github.com/adamcorren/horse_racing_study_3)
+
+[Project Report]()
+
 ## License
 
 Horse Racing Data Analyzer is licensed under [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html).
