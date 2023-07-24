@@ -72,3 +72,6 @@ Once exported, the daily data file will be stored in the 'daily_data' folder, as
 ## License
 
 Horse Racing Data Analyzer is licensed under Licensed under [MIT]((https://opensource.org/license/mit/)).
+
+The data provided is property of https://www.sportinglife.com/, https://www.timeform.com/, https://www.betfair.com/
+I don't own any of the data
