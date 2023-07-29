@@ -38,7 +38,7 @@ def main():
 
             # merge exchange and bookmaker data and export to csv file
             race_data = pd.merge(bf_data, spr_data, left_on='Name', right_on='names').drop('names', axis=1)
-            race_data.drop('names',axis=1).to_csv(f"daily_data/{file_format}/exchange_bookie_data.csv", index=False)
+            race_data.to_csv(f"daily_data/{file_format}/exchange_bookie_data.csv", index=False)
 
         # get non runner price adjustments
         price_deductions = non_runner_adjustments.get_non_runner_adjustments(race_data, hourly_odds)
