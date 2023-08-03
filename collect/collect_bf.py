@@ -7,7 +7,7 @@ def get_bf_data(day):
     print('Getting exchange data..')
     # we need data from both uk and ireland races, which are stored in two seperate files
     betfair_format = day + timedelta(days=1)
-    betfair_format = (betfair_format.strftime("%d%m%Y"))
+    betfair_format = betfair_format.strftime("%d%m%Y")
     betfair_urls = [
         f"https://promo.betfair.com/betfairsp/prices/dwbfpricesukwin{betfair_format}.csv",
         f"https://promo.betfair.com/betfairsp/prices/dwbfpricesirewin{betfair_format}.csv"
