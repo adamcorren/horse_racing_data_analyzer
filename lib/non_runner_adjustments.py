@@ -2,18 +2,13 @@ import pandas as pd
 
 # getting all the names of the days non runners
 def get_non_runners(race_data):
-    return (race_data[['non_runners']]
-        .drop_duplicates()
-        .dropna()
-        .assign(non_runners=race_data.non_runners
-                .str.replace("[", "")
-                .str.replace("", "")
-                .str.replace("'","")
-                .str.replace("]","")
-                .str.strip()
-                .str.split(', '))
-        .explode('non_runners')
-        .reset_index(drop=True))
+    return (race_data['non_runners']
+            .drop_duplicates()
+            .dropna()
+            .apply(lambda x: eval(x))
+            .explode()
+            .str.strip()
+            .reset_index(drop=True))
 
 
 # getting last price of non runners (if price over 15 no deductions apply)
