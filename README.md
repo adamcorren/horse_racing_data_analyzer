@@ -1,6 +1,6 @@
 # Horse Racing Data Analyzer 
 
-Horse Racing Data Analyzer is a Python program that scrapes UK, Ireland bookmaker and Betfair exchange horse racing data and combines this data with pre race hourly bookmaker and exchange data. It then will analyse the data collected and produce 149 unique data points for every horse running in every race in the UK and Ireland.
+Horse Racing Data Analyzer is a Python program that scrapes UK, Ireland bookmaker and Betfair exchange horse racing data and combines this data with pre race morning hourly bookmaker and exchange data. It then will analyse the data collected and produce 149 unique data points for every horse running in every race in the UK and Ireland.
 
 These data points cover topics such as:
 - Key time morning prices (currently 1am, 6am ,10am)
